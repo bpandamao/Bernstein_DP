@@ -289,13 +289,6 @@ Lambda[s]=lambda
 
 ###the posterior estimate
 R.pred=Beta.pred=G.pred=NULL
-KK=KK[1001:10000]
-Lambda=Lambda[1001:10000]
-R=R[1001:10000,]
-Beta=Beta[1001:10000,]
-KC=KC[1001:10000,]
-GG=GG[1001:10000,]
-
 ### the K.pred
 ### the function to get mode
 getmode = function(v) {
